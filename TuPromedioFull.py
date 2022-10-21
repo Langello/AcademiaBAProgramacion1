@@ -15,7 +15,7 @@ def calificacion():
             ingresos += 1
             continuar = input(
                 "Ingrese listo si ya puso todas las notas, para seguir poniendo notas presione enter").lower()
-        promedio = round(sumNotas/ingresos,1)
+        promedio = round(sumNotas/ingresos, 1)
 
         if promedio >= 8 and promedio <= 10:
             tuCalificacion = "Sobresaliente"
@@ -24,10 +24,12 @@ def calificacion():
         elif promedio >= 0 and promedio < 4:
             tuCalificacion = "Reprobado"
         else:
-            print("Tu promedio es",promedio," y no esta entre 0 y 10, presiona enter y volvamos a empezar...")
+            print("Tu promedio es", promedio,
+                  " y no esta entre 0 y 10, presiona enter y volvamos a empezar...")
             input()
             return calificacion()
-        print("Tu promedio es",promedio,"y tu calificacion es: ", tuCalificacion)
+        print("Tu promedio es", promedio,
+              "y tu calificacion es: ", tuCalificacion)
     else:
         quit()
 
