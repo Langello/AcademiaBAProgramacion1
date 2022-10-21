@@ -8,4 +8,4 @@ while monto != 0:
     total = total+monto
 print("El total de importes es:", total)
 
-input("Ingrese enter para finalizar")
+input("Ingrese enter para finalizar.")
