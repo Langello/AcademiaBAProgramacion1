@@ -27,4 +27,5 @@ numeros = [1, 2, 3, 4, 5, 15, 8, 65, 7]
 numeros.sort()  # Modifica la lista y la ordena de menor a mayor
 print(numeros)  # [1, 2, 3, 4, 5, 7, 8, 15, 65]
 
+frutas.remove[4]  # Borra la posición de la lista.
 input('Enter para finalizar')
