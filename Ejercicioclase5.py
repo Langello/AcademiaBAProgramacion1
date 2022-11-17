@@ -15,11 +15,11 @@ for i in Temperaturas:
     print(i)
 
 prom = acumulador/len(Temperaturas)
-print ("El promedio de las temperaturases: ", round(prom,2))
+print("El promedio de las temperaturases: ", round(prom, 2))
 
 if prom >= 21:
     print("Clima cálido")
-elif prom <21 and prom >=19:
+elif prom < 21 and prom >= 19:
     print("Clima templado")
 else:
     print("Clima frío")
